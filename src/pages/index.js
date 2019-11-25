@@ -5,6 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hello from "../images/Hello.png"
 
+import axios from "axios";
+import style from "/Users/charles/gatsby-site/first-work/fun/src/components/index.module.css"
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -18,7 +22,18 @@ const IndexPage = () => (
         What's more?
       </p>
     </Link>
+    <button onClick={handleClick}>Send!</button>
   </Layout>
 )
+
+function handleClick() {
+  axios({
+    url: 'http://localhost:9000/',
+    method: 'POST',
+    headers: { "Access-Control-Allow-Origin": "*" },
+    data: 'hello'
+  })
+}
+axios('http://localhost:9000/');
 
 export default IndexPage
