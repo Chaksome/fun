@@ -11,7 +11,7 @@ const SecondPage = () => (
     <h1>Bye~</h1>
     <img src={seeyou} alt="Don't let me see you again " />
     <p>
-    <Link to="/"> Back to the homepage</Link>
+      <Link to="/"> Back to the homepage</Link>
     </p>
   </Layout>
 )
