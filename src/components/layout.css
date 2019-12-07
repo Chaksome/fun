@@ -61,8 +61,10 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 1em;
+  font-size: 7em;
+  font-family: Georgia, serif;
   margin: 0.67em 0;
+  color: #f00
 }
 mark {
   background-color: #f00;
@@ -229,7 +231,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #009966;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -568,6 +570,10 @@ thead {
   text-align: left;
 }
 td,
+button
+{
+   color: #338545;
+}
 th {
   text-align: left;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);

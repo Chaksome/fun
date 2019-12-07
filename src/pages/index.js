@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Hello from "../images/Hello.png"
 
 import axios from "axios";
-import style from "/Users/charles/gatsby-site/first-work/fun/src/components/index.module.css"
 
 
 const IndexPage = () => (
