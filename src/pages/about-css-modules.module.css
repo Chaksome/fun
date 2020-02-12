@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+    
+    img {
+        width: 293px;
+        display: space-around;
+        margin-right: 28px;
+        
+    }
+    
+    .item {
+        box-shadow: 4px 4px 4px rgb(164, 164, 164);
+        float: right;
+        width: 33.3%;
+
+    }
+    .v9tJq {
+        width:1110px;
+        margin:0 auto;
+        border:1px solid red;
+        display: block;
+        text-align:center;
+    
+    }
+
+    
+
+    

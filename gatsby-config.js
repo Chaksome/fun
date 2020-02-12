@@ -1,4 +1,15 @@
 module.exports = {
+  plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/images/epoint2016`,
+        name: "images",
+      },
+    },
+  ],
   plugins: [`gatsby-plugin-emotion`],
   siteMetadata: {
     title: `Welcome to 🏡Charles`,
