@@ -2,6 +2,7 @@ import React from "react"
 import Styles from "./about-css-modules.module.css"
 import Container from "../components/container"
 import Layout from "../components/layout"
+import love from "../images/instagram-heart-png-23862.png"
 
 import zero from "../images/epoint2016/bot-0-0.jpg"
 import a from "../images/epoint2016/bot-0-1.jpg"
@@ -395,11 +396,14 @@ function handleclick()
 const Water = () => (
     <Layout>
         
+    <div class = "title">
+        <h1>📷My INS Gallery       <img class = "love" src={love} /></h1>
+    </div>
     <b>
     <button  class = "zero" onClick= {handleclick} ><span>相沢みなみ</span></button>
     </b>
 
-    <div id="herDIV">
+    <div id="herDIV" style ={{display:'none'}}>
     <h1>zero</h1>
     <div class=".v9tJq"><img class ="img1" src={zero}alt=""/> <img class = "img2" src={a}alt=""/> <img class = "img2" src={b}alt=""/></div>
     <div class=".v9tJq"><img class ="img1" src={c}alt=""/> <img class = "img2" src={d}alt=""/> <img class = "img2" src={e}alt=""/></div>
@@ -503,7 +507,7 @@ const Water = () => (
     <b>
     <button  class = "one" onClick= {handleclick1} ><span>Chakyinkwok</span></button>
     </b>
-    <div id="myDIV">
+    <div id="myDIV" style ={{display:'none'}}>
     <h1>zero</h1>
     <div class=".v9tJq"><img class ="img1" src={zero1} alt=""/></div>
     </div>
@@ -511,7 +515,7 @@ const Water = () => (
     <b>
     <button  class = "two" onClick= {handleclick2} ><span>Hebe</span></button>
     </b>
-    <div id="her2DIV">
+    <div id="her2DIV" style ={{display:'none'}}>
     <h1>zero</h1>
     <div class=".v9tJq"><img class ="img1" src={zero2} alt=""/> <img class = "img2" src={a2} alt=""/> <img class = "img2" src={b2} alt=""/></div>
     <div class=".v9tJq"><img class ="img1" src={c2} alt=""/> <img class = "img2" src={d2} alt=""/> <img class = "img2" src={e2} alt=""/></div>
